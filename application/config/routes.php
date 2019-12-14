@@ -50,19 +50,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 
-$route['default_controller'] = 'home';
-$route['how-to-apply'] = 'cmspages/page/howto';
-$route['about-us'] = 'cmspages/page/about';
-$route['complaints'] = 'cmspages/page/complaints';
-$route['remarks'] = 'cmspages/page/remark';
-$route['term-and-conditions'] = 'cmspages/page/terms';
-$route['privacy-policy'] = 'cmspages/page/privacy';
-$route['types-of-visa'] = 'cmspages/choosevisa';
-$route['track-application'] = 'applicationstatus';
-$route['payment'] = 'applicationstatus/payment';
-$route['contact-us'] = 'contact';
-$route['thank-you'] = 'contact/thankyou';
-//$route['(:any)'] = 'home/about/$1';
-//$route['(:any)'] = "home/$1/$1";
+$route['default_controller'] = 'welcome';
 $route['404_override'] = 'custom404';
 $route['translate_uri_dashes'] = FALSE;

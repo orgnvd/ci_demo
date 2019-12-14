@@ -17,17 +17,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-if($_SERVER['HTTP_HOST']=='192.168.1.4'){
+// if($_SERVER['HTTP_HOST']=='192.168.1.4'){
 	
-	$config['base_url'] = 'http://192.168.1.4/omanvisa/';
+// 	$config['base_url'] = 'http://192.168.1.4/omanvisa/';
 	
-}else if($_SERVER['HTTP_HOST']=='staging.csipl.net'){
+// }else if($_SERVER['HTTP_HOST']=='staging.csipl.net'){
 	
-	$config['base_url'] = 'http://staging.csipl.net/omanvisa/';
-}else{
+// 	$config['base_url'] = 'http://staging.csipl.net/omanvisa/';
+// }else{
 	
-$config['base_url'] = 'https://www.thedubaivisa.com/';
-}	
+$config['base_url'] = 'http://' . $_SERVER['HTTP_HOST'] . '/ci_demo/';
+// }	
 $config['properties'] = include('public/include/development.php');
 /*
 |--------------------------------------------------------------------------

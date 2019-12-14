@@ -69,11 +69,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => $database_credential->hostname,
-	'username' => $database_credential->username,
-	'password' => $database_credential->password,
-	'database' => $database_credential->database,
-
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'ci_demo',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
