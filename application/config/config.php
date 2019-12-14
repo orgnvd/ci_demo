@@ -17,17 +17,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-if($_SERVER['HTTP_HOST']=='192.168.1.4'){
+$config['base_url'] = 'http://localhost/projects/ci_demo/';
 	
-	$config['base_url'] = 'http://192.168.1.4/omanvisa/';
-	
-}else if($_SERVER['HTTP_HOST']=='staging.csipl.net'){
-	
-	$config['base_url'] = 'http://staging.csipl.net/omanvisa/';
-}else{
-	
-$config['base_url'] = 'https://www.thedubaivisa.com/';
-}	
 $config['properties'] = include('public/include/development.php');
 /*
 |--------------------------------------------------------------------------
@@ -164,7 +155,8 @@ $config['composer_autoload'] = FALSE;
 | DO NOT CHANGE THIS UNLESS YOU FULLY UNDERSTAND THE REPERCUSSIONS!!
 |
 */
-$config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
+// $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
+$config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-@\=';
 
 
 /*
@@ -511,7 +503,8 @@ $config['rewrite_short_tags'] = FALSE;
 | Comma-separated:	'10.0.1.200,192.168.5.0/24'
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
-$config['siteName'] 	= 'The Oman Visa';
-$config['adminEmail']	= 'testingtept@gmail.com';
-
+$config['siteName'] 	= 'ALSTONE';
+$config['site_name'] 	= 'ALSTONE';
+$config['admin_email']	= 'homesh@newvisiondigital.co,shashi.v@newvisiondigital.co,shreya@newvisiondigital.co';
+$config['from_email']	= 'info@site4clientdemo.com.co';
 $config['proxy_ips'] = '';
