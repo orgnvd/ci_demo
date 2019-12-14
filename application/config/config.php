@@ -17,23 +17,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-<<<<<<< HEAD
-$config['base_url'] = 'http://localhost/projects/ci_demo/';
-	
-=======
-// if($_SERVER['HTTP_HOST']=='192.168.1.4'){
-	
-// 	$config['base_url'] = 'http://192.168.1.4/omanvisa/';
-	
-// }else if($_SERVER['HTTP_HOST']=='staging.csipl.net'){
-	
-// 	$config['base_url'] = 'http://staging.csipl.net/omanvisa/';
-// }else{
 	
 $config['base_url'] = 'http://' . $_SERVER['HTTP_HOST'] . '/ci_demo/';
-// }	
->>>>>>> 3c56fa8aee3925df276fe3718b7fdf4a9eaf4320
-$config['properties'] = include('public/include/development.php');
+
 /*
 |--------------------------------------------------------------------------
 | Index File
