@@ -77,8 +77,13 @@ $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 	'username' => 'root',
+<<<<<<< HEAD
 	'password' => '123456',
 	'database' => 'cidemo',
+=======
+	'password' => '',
+	'database' => 'ci_demo',
+>>>>>>> 3c56fa8aee3925df276fe3718b7fdf4a9eaf4320
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
