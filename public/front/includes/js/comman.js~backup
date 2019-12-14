@@ -1,0 +1,166 @@
+// JavaScript Document
+
+
+/*--background-js--*/
+$(document).ready(function(){
+var windowwidth1= $(window).width();
+	if(windowwidth1>1000){
+		$(".home_banner img.mainbanner").each(function(i, elem) {
+		var img = $(elem);
+			var div = $("<div />").css({
+				background: "url(" + img.attr("src") + ") no-repeat",
+				width: img.width() + "px",
+				height: img.height() + "px"
+			});
+		  img.replaceWith(div);
+		});
+	}
+});
+
+
+$(function(){
+	function resizeImage(){
+	var windoWidth = $(window).width();
+	if(windoWidth < 800){
+	$('.mobile_menu ').click(function(){
+	$('.lower_logo_right').addClass('open');	
+	});
+	
+	$('.close_menu ').click(function(){
+	$('.lower_logo_right').removeClass('open');	
+	});
+	
+	
+	}	
+	}
+	$(window).resize(function(){
+		resizeImage();
+	});
+	$(window).load(function(){
+		resizeImage();
+	});
+	resizeImage();
+
+});
+
+
+
+
+
+
+ $(document).ready(function() {
+ 
+  var owl = $("#owl-demo1");
+   owl.owlCarousel({
+	autoPlay: 5000, //Set AutoPlay to 3 seconds
+	loop:true,
+    navigation : false,
+    singleItem : true,
+    transitionStyle : "fade",
+    animateOut: 'fadeOut',
+	//smartSpeed:500000
+  });
+ 
+});
+
+
+//var $ = jQuery.noConflict();
+$(document).ready(function() {
+$('.section3').parallax("50%", 0.1);
+var iOS = false,
+		p = navigator.platform;
+	if (p === 'iPad' || p === 'iPhone' || p === 'iPod') { iOS = true; }
+});
+
+
+
+
+
+
+$(function(){
+	
+	$('#form1_submit').click(function(){
+		$("#frmUser").validationEngine({promptPosition : "topRight:-100"});
+		if($("#frmUser").validationEngine('validate')) {
+			//alert('first');
+				$('.application_form1').hide();	
+				$('.application_form2').fadeIn();
+				$('.application_section1').addClass('application_section2');
+				return false;
+			} else {
+				return false;
+			}
+				
+	return false;
+	});
+	
+	
+	$('#form1_submit1').click(function(){
+	$('.application_form1').fadeIn();
+	$('.application_form2').fadeOut();
+	$('.application_section1').removeClass('application_section2');
+	return false;	
+	});
+});
+
+
+$(document).ready(function(){
+	
+	$('.day_conditions ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('.day_conditions ul.tabs li').removeClass('current');
+		$('.day_conditions .tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+
+$(document).ready(function() {
+    $(".owl-carousel1").owlCarousel({
+		items: 1,
+        itemsDesktop: [1400, 1],
+        itemsDesktopSmall: [1100, 1],
+        itemsTablet: [700, 1],
+        itemsMobile: [500, 1],
+		transitionStyle : "fade",
+    animateOut: 'fadeOut'
+    });
+ });
+ 
+ 
+ 
+ $(function(){
+	 
+	 popopen = false;
+	 
+	 $('.call_btn').click(function(){
+		 if(popopen == false){
+		 $('.call_back').stop(true, true).animate({right:'0'},500);
+		 popopen = true; 
+		 }
+		 else{
+			 $('.call_back').stop(true, true).animate({right:'-300'},500); 
+			 popopen = false; 
+		 }
+	 })
+	 
+	 
+	 
+ });
+ 
+ 
+ 
+ 
+ $(function(){
+	$('.click_popup').click(function(){
+		$('.apply_popup_overlay').fadeIn();
+		$('.apply_popup_outer').fadeIn();
+	}); 
+	$('.apply_popup_overlay').click(function(){
+	$('.apply_popup_overlay').fadeOut();
+		$('.apply_popup_outer').fadeOut();	
+	});
+ });

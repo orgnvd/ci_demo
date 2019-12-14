@@ -1,0 +1,107 @@
+
+
+.table-format {font-size:14px;	font-family: 'Roboto', sans-serif; line-height:18px; color: #000; font-weight: 400; border-left: 1px solid #CCC; border-top: 1px solid #CCC; }
+.table-format td {border-bottom: 1px solid #CCC; padding:6px 6px 6px 6px; border-right: 1px solid #CCC;}
+.table-format td a{color: #363636; font-weight: 400; padding:5px 5px 5px 0px; text-decoration:none;}
+.table-format td a:hover{color: #000; font-weight: 400;	text-decoration:none;}
+.table-head {background-color: #3b97d2; color:#ffffff; font-weight:bold; text-align:center; font-size:14px;}
+.head {
+    color: #323232;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.table-format2 {font-size: 12px;	font-family:arial; color: #000; font-weight: 400;}
+.table-format2 td {padding:5px 0px 5px 5px;}
+p.invice_logo {
+    padding: 0 0 26px 0 !important;
+    text-align: right !important;
+}
+p.business2 {
+    text-align: center;
+    padding: 30px 0 40px 0;
+    margin: 0;
+}
+
+p.s2pravt {
+    text-align: center;
+    padding: 0 0 40px 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+p.s2pravt span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}
+p.s2pravt span a {
+    display: inline-block;
+    color: #3b97d2;
+    padding: 0;
+    line-height: 16px;
+}
+
+
+
+
+
+/*
+.table-format {
+	font-size:14px;  
+	font-family: 'Roboto', sans-serif; 
+	line-height:18px; 
+	color: #000; 
+	font-weight: 400; 
+	border-left: 1px solid #CCC; 
+	border-top: 1px solid #CCC; 
+}
+.table-format td {
+	border-bottom: 1px solid #CCC; 
+	padding:6px 6px 6px 6px; 
+	border-right: 1px solid #CCC;
+}
+.table-format td a{
+	color: #363636; 
+	font-weight: 400; 
+	padding:5px 5px 5px 0px; 
+	text-decoration:none;
+}
+.table-format td a:hover{
+	color: #000; 
+	font-weight: 400; 
+	text-decoration:none;
+}
+.table-head {
+	background-color: #3b97d2; 
+	color:#ffffff; 
+	font-weight:bold; 
+	text-align:center; 
+	font-size:14px;
+}
+.head {
+	color: #1d78b1; 
+	font-family: 'Roboto', sans-serif; 
+	font-size: 30px; 
+	padding: 0; 
+	margin: 0; 
+	font-weight: 400; 
+	text-align:center;
+}
+
+.table-format2 {
+	font-size: 12px;    
+	font-family:arial; 
+	color: #000; 
+	font-weight: 400;
+}
+.table-format2 td {
+	padding:5px 0px 5px 5px;
+}*/

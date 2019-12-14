@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'ProximaNovaRegwebfont';
+    src: url('../fonts/ProximaNovaRegwebfont.eot');
+    src: url('../fonts/ProximaNovaRegwebfont.eot') format('embedded-opentype'),
+         url('../fonts/ProximaNovaRegwebfont.woff2') format('woff2'),
+         url('../fonts/ProximaNovaRegwebfont.woff') format('woff'),
+         url('../fonts/ProximaNovaRegwebfont.ttf') format('truetype'),
+         url('../fonts/ProximaNovaRegwebfont.svg#ProximaNovaRegwebfont') format('svg');
+}
+
+@font-face {
+    font-family: 'ProximaNovaLightwebfont';
+    src: url('../fonts/ProximaNovaLightwebfont.eot');
+    src: url('../fonts/ProximaNovaLightwebfont.eot') format('embedded-opentype'),
+         url('../fonts/ProximaNovaLightwebfont.woff2') format('woff2'),
+         url('../fonts/ProximaNovaLightwebfont.woff') format('woff'),
+         url('../fonts/ProximaNovaLightwebfont.ttf') format('truetype'),
+         url('../fonts/ProximaNovaLightwebfont.svg#ProximaNovaLightwebfont') format('svg');
+}
+
+
+@font-face {
+    font-family: 'proximanovasemiboldwebfont';
+    src: url('../fonts/proximanovasemiboldwebfont.eot');
+    src: url('../fonts/proximanovasemiboldwebfont.eot') format('embedded-opentype'),
+         url('../fonts/proximanovasemiboldwebfont.woff2') format('woff2'),
+         url('../fonts/proximanovasemiboldwebfont.woff') format('woff'),
+         url('../fonts/proximanovasemiboldwebfont.ttf') format('truetype'),
+         url('../fonts/proximanovasemiboldwebfont.svg#proximanovasemiboldwebfont') format('svg');
+}
+@font-face {
+    font-family: 'ProximaNovaBoldwebfont';
+    src: url('../fonts/ProximaNovaBoldwebfont.eot');
+    src: url('../fonts/ProximaNovaBoldwebfont.eot') format('embedded-opentype'),
+         url('../fonts/ProximaNovaBoldwebfont.woff2') format('woff2'),
+         url('../fonts/ProximaNovaBoldwebfont.woff') format('woff'),
+         url('../fonts/ProximaNovaBoldwebfont.ttf') format('truetype'),
+         url('../fonts/ProximaNovaBoldwebfont.svg#ProximaNovaBoldwebfont') format('svg');
+}
+
+
