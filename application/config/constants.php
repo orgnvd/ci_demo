@@ -46,9 +46,9 @@ define('FOPEN_READ_WRITE_CREATE_STRICT', 'x+b');
 |
 */
 
-define('SITE_URL', 				'http://' . $_SERVER['HTTP_HOST'] . '/ci_demo/');
-define('ADMIN_SITE_URL', 		'http://' . $_SERVER['HTTP_HOST'] . '/ci_demo/admin/');
-define('CMS_URL', 				'http://' . $_SERVER['HTTP_HOST'] . '/ci_demo/cms/page/');
+define('SITE_URL', 				'http://' . $_SERVER['HTTP_HOST'] . '/projects/ci_demo/');
+define('ADMIN_SITE_URL', 		'http://' . $_SERVER['HTTP_HOST'] . '/projects/ci_demo/admin/');
+define('CMS_URL', 				'http://' . $_SERVER['HTTP_HOST'] . '/projects/ci_demo/cms/page/');
 
 define('ROOT_PATH',				str_replace("\\", "/",dirname(dirname(dirname(__FILE__)))));
 

@@ -18,7 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 	
-$config['base_url'] = 'http://' . $_SERVER['HTTP_HOST'] . '/ci_demo/';
+$config['base_url'] = 'http://' . $_SERVER['HTTP_HOST'] . '/projects/ci_demo/';
 
 /*
 |--------------------------------------------------------------------------
