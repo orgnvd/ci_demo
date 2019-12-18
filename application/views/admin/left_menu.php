@@ -75,17 +75,14 @@
 		   </ul>
         </li>
 		<li class="treeview">
-          <a href="#">
-            <i class="fa fa-list "></i>
-            <span>Manage Pages</span>
-            <span class="pull-right-container">
-              <span class="label label-primary pull-right"></i></span>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-		<li><a href="<?php echo base_url('cms');?>"><i class="fa fa-circle-o text-aqua active"></i> <?php echo "Pages";?></a></li>
-		</ul>
-        </li>
+            <a href="#">
+              <i class="fa fa-file"></i> <span>Pages</span> <i class="fa fa-angle-left pull-right"></i>
+            </a>
+            <ul class="treeview-menu" style="display: none;"> 
+              <li><a href="<?php echo base_url('cms');?>"><i class="fa fa-table"></i> All Pages</a></li>
+               <li><a href="<?php echo base_url('cms/addCms');?>"><i class="fa fa-plus-square-o"></i> Add New Page</a></li>
+            </ul>
+         </li>
 		<!--<li class="treeview">
           <a href="#">
             <i class="fa fa-list "></i>
