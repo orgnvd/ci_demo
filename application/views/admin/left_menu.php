@@ -86,7 +86,7 @@
 		<li><a href="<?php echo base_url('cms');?>"><i class="fa fa-circle-o text-aqua active"></i> <?php echo "Pages";?></a></li>
 		</ul>
         </li>
-		<li class="treeview">
+		<!--<li class="treeview">
           <a href="#">
             <i class="fa fa-list "></i>
             <span>Manage User Role</span>
@@ -97,7 +97,7 @@
           <ul class="treeview-menu">
 		<li><a href="<?php echo base_url('users');?>"><i class="fa fa-circle-o text-aqua active"></i> <?php echo "Manage Users";?></a></li>
 		</ul>
-        </li>
+        </li>-->
 		<li class="treeview">
           <a href="#">
             <i class="fa fa-list "></i>
