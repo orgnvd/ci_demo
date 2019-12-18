@@ -123,6 +123,14 @@
 			<li><a href="<?php echo base_url('contactforms/contact');?>"><i class="fa fa-circle-o text-aqua active"></i> <?php echo "Contact";?></a></li>
 		  </ul>
         </li>
+		<li class="treeview">
+            <a href="#">
+              <i class="fa fa-cog"></i> <span>Settings</span> <i class="fa fa-angle-left pull-right"></i>
+            </a>
+            <ul class="treeview-menu">
+              <li><a href="#"><i class="fa fa-circle-o"></i> General</a></li>
+            </ul>
+         </li>
       </ul>
 	  <?php } ?>
     </section>

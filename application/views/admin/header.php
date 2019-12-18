@@ -54,10 +54,10 @@
     <!-- Logo -->
     <a href="<?php echo base_url('dashboard');?>" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><i class="fa fa-cc-visa"></i></span>
+      <span class="logo-mini"> <?php echo $this->config->item('siteName'); ?></span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg">
-			<img src="<?php echo base_url();?>images/image/logo.png" />
+			  <?php echo $this->config->item('siteName'); ?>
 	  </span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
