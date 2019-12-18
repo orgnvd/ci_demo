@@ -42,38 +42,13 @@
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
           </a>
         </li>
-		<li class="treeview">
-          <a href="#">
-            <i class="fa fa-list "></i>
-            <span>Manage Visa Applications</span>
-            <span class="pull-right-container">
-              <span class="label label-primary pull-right"></i></span>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-		<li><a href="<?php echo base_url('visasapplication');?>"><i class="fa fa-circle-o text-aqua active"></i> <?php echo "Visa Applications";?></a></li>
-		<li><a href="<?php echo base_url('visasapplication/incomplete');?>"><i class="fa fa-circle-o text-aqua active"></i> <?php echo "Incomplete Applications";?></a></li>
-		</ul>
-        </li>
-	</ul>
+	 </ul>
 	  <?php } else if($accessRoleID == 3){ ?> 
 	 <ul class="sidebar-menu">
         <li class="">
           <a href="<?php echo base_url('dashboard');?>">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
           </a>
-        </li>
-		<li class="treeview">
-          <a href="#">
-            <i class="fa fa-list "></i>
-            <span>Manage Visa Applications</span>
-            <span class="pull-right-container">
-              <span class="label label-primary pull-right"></i></span>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-		<li><a href="<?php echo base_url('visasapplication/customerProfiling');?>"><i class="fa fa-circle-o text-aqua active"></i> <?php echo "Visa Applications";?></a></li>
-		</ul>
         </li>
 	</ul>
 	 
@@ -97,10 +72,6 @@
 				<a href="<?php echo base_url('location');?>"><i class="fa fa-circle-o text-aqua active"></i> <?php echo "Country";?>
 				</a>
 			</li>
-			<li>
-				<a href="<?php echo base_url('region');?>"><i class="fa fa-circle-o text-aqua active"></i> <?php echo "Nationality";?>
-				</a>
-			</li>
 		   </ul>
         </li>
 		<li class="treeview">
@@ -113,45 +84,6 @@
           </a>
           <ul class="treeview-menu">
 		<li><a href="<?php echo base_url('cms');?>"><i class="fa fa-circle-o text-aqua active"></i> <?php echo "Pages";?></a></li>
-		</ul>
-        </li>
-		<li class="treeview">
-          <a href="#">
-            <i class="fa fa-list "></i>
-            <span>Manage Visa Category</span>
-            <span class="pull-right-container">
-              <span class="label label-primary pull-right"></i></span>
-            </span>
-          </a>
-		<ul class="treeview-menu">
-			<li>
-				<a href="<?php echo base_url('category');?>">
-					<i class="fa fa-circle-o text-aqua active"></i> <?php echo "Visa category";?>
-				</a>
-			</li>
-			<li>
-				<a href="<?php echo base_url('visa');?>">
-					<i class="fa fa-circle-o text-aqua active"></i> <?php echo "Visa Details";?>
-				</a>
-			</li>
-			<li>
-				<a href="<?php echo base_url('visaccess');?>">
-					<i class="fa fa-circle-o text-aqua active"></i> <?php echo "Visa Access";?>
-				</a>
-			</li>
-		</ul>
-        </li>
-		<li class="treeview">
-          <a href="#">
-            <i class="fa fa-list "></i>
-            <span>Manage Visa Applications</span>
-            <span class="pull-right-container">
-              <span class="label label-primary pull-right"></i></span>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-		<li><a href="<?php echo base_url('visasapplication');?>"><i class="fa fa-circle-o text-aqua active"></i> <?php echo "Visa Applications";?></a></li>
-		<li><a href="<?php echo base_url('visasapplication/incomplete');?>"><i class="fa fa-circle-o text-aqua active"></i> <?php echo "Incomplete Applications";?></a></li>
 		</ul>
         </li>
 		<li class="treeview">
