@@ -125,7 +125,7 @@
               <i class="fa fa-cog"></i> <span>Settings</span> <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
-              <li><a href="#"><i class="fa fa-circle-o"></i> General</a></li>
+              <li><a href="<?php echo base_url('dashboard/add'); ?>"><i class="fa fa-circle-o"></i> General</a></li>
             </ul>
          </li>
       </ul>
