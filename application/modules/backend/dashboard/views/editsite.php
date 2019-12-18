@@ -30,39 +30,34 @@
             <!-- form start -->
       <?= validation_errors(); ?>
             <?php $attributes = array('id' => 'frm_subadmin', 'name'=>'frm_subadmin');
-      echo form_open_multipart('dashboard/update/'. $list[0]['id'], $attributes); ?>
+      echo form_open_multipart('dashboard/add_site/'.$updated->id, $attributes); ?>
         <div class="box-body">
           
           <div class="form-group">
             <label for=""><?php echo 'Site Title';?>*</label>
-            <input type="text" class="form-control" id="title" name="site_title" placeholder="" value="<?php if(!empty($list)){ echo $list[0]['site_title']; } else { echo 'gg'; }?>">
+            <input type="text" class="form-control" id="title" name="site_title" placeholder="Title" value="<?php echo $updated->site_title;?>">
           </div>
           <div class="form-group">
              <label for=""><?php echo 'Email';?></label><br>
-             <input type="text" class="form-control" id="email" name="email" placeholder="Email" 
-             value="<?php if(!empty($list)){ echo $list[0]['email']; } else { echo 'gg'; }?>">
+             <input type="text" class="form-control" id="email" name="email" placeholder="Email" value="<?php echo $updated->email;?>">
           </div>
           <div class="form-group">
             <label for=""><?php echo 'Phone';?> </label>
-            <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone" 
-            value="<?php if(!empty($list)){ echo $list[0]['phone']; } else { echo 'gg'; }?>">
+            <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone" value="<?php echo $updated->phone;?>">
           </div>
         
           <div class="form-group">
              <label for=""><?php echo 'logo';?></label>
             <input name="logo" type="file" id="logo">
-            <input type="hidden" name="old_logo" value="<?php echo $list[0]['logo']; ?>">
+            <input type="hidden" name="old_logo" value="<?php echo $updated->logo; ?>">
           </div>
-          <?php if(!empty($list)) :?>
-            <div class="form-group">
-              <img src="<?php echo base_url('images/logo/');?><?php echo $list[0]['logo'];?>" id="image<?php echo $list[0]['logo'];?>" style="width:100px;">
-            </div>
+          <?php if(!empty($updated)) :?>
+          <div class="form-group">
+              <img src="<?php echo base_url('images/logo');?><?php echo $updated->logo;?>" id="image<?php echo $updated->logo;?>" style="width:100px;">
+              </div>
             <?php else : ?>
             <img src="<?php echo base_url();?>/images/noimage.jpg" />
           <?php endif;?>
-        
-          
-          
           
           
           </div>
